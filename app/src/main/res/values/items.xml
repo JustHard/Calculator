@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="items">
+        <item>长度</item>
+        <item>面积</item>
+        <item>重量</item>
+    </string-array>
+</resources>

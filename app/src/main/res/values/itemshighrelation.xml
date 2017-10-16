@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="itemsrehighlation">
+        <item>爸爸</item>
+        <item>妈妈</item>
+    </string-array>
+</resources>

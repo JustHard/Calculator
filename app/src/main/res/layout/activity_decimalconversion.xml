@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewTiele"
+        android:text="二、八、十六进制转换十进制"
+        android:textColor="#DC143C"
+        android:textSize="70px"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewBinary"
+        android:layout_marginTop="20dp"
+        android:text="二进制转换十进制"
+        android:textColor="#1E90FF"
+        android:textSize="50px"
+        />
+
+    <EditText
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextBinary"
+        android:textSize="50px"
+        android:textColor="#FFB6C1"
+        android:text=""
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button1"
+        android:textSize="50px"
+        android:text="转换"
+        android:background="#008B8B"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewBinaryResult"
+        android:textSize="50px"
+        android:textColor="#FFB6C1"
+        android:text=""
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="50px"
+        android:id="@+id/textViewOctal"
+        android:text="八进制转换十进制"
+        android:textColor="#1E90FF" />
+
+    <EditText
+        android:id="@+id/editTextOctal"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColor="#FFB6C1"
+        android:textSize="50px" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="50px"
+        android:id="@+id/button2"
+        android:text="转换"
+        android:background="#008B8B"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewOctalResult"
+        android:textSize="50px"
+        android:textColor="#FFB6C1"
+        android:text=""
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewHexadecimal"
+        android:textSize="50px"
+        android:text="十六进制转换十进制"
+        android:textColor="#1E90FF"
+        />
+
+    <EditText
+        android:id="@+id/editTextHexadecimal"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColor="#FFB6C1"
+        android:textSize="50px" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="50px"
+        android:text="转换"
+        android:background="#008B8B"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewHexadecimalResult"
+        android:textSize="50px"
+        android:textColor="#FFB6C1"
+        android:text=""
+        />
+    <Button
+        android:id="@+id/buttonReturn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="返回标准计算器"
+        android:textSize="50px"
+        android:background="#FFA500"/>
+
+</LinearLayout>
